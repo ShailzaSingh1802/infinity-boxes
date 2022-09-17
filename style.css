@@ -1,0 +1,43 @@
+body{
+    margin: auto;
+    padding: 0%;
+    background-color: lightslategray;
+
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.addbutton {
+    padding: 8px;
+    background-color: lavender;
+    font-style: bold,italic;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    cursor: pointer;
+}
+span{
+    position: relative;
+    top: -35px;;
+    right: -35px;
+    text-align:center;
+    background: #fff;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+
+}
+
+#box-container {
+    display: flex;
+}
